@@ -99,6 +99,18 @@ namespace App13
         {
 
         }
+
+        private void buttonLogin_Click(object sender, EventArgs e)
+        {
+            if(textBoxPassword.Text == "passKhafan")
+            {
+                MessageBox.Show("Correct Licence");
+            }
+            else
+            {
+                MessageBox.Show("Wrong Licence");
+            }
+        }
     }
 
     public class Product
